@@ -1,18 +1,13 @@
 {
   "name": "apple-website",
   "private": true,
-  "homepage": "https://philippos123.github.io/react-gh-apple-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "start": "serve -s dist",
-    "preview": "vite preview",
-    "heroku-postbuild": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -24,7 +19,6 @@
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "serve": "^14.2.4",
     "three": "^0.170.0"
   },
   "devDependencies": {
